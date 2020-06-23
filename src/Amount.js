@@ -1,5 +1,4 @@
 import React from 'react'
-import Credit from './Credit'
 import debit from './GlobalContextDebit'
 import credit from './GlobalContextCredit'
 
