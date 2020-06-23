@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import Credit from './Credit'
 import a from './GlobalAmountContext'
 import debit from './GlobalContextDebit'
+import credit from './GlobalContextCredit'
 
 let Amount = () => {
     let c=React.useContext(credit);
