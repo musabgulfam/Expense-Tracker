@@ -1,9 +1,6 @@
-import React, { useState, useContext } from 'react'
-import Amount from './Amount'
+import React, { useState } from 'react'
 import debit from './GlobalContextDebit'
 import credit from './GlobalContextCredit'
-import a from './GlobalAmountContext'
-import TH from './TransactionHistory'
 import t from './TransactionGlobalContext'
 
 let AddTr = () => {
