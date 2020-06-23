@@ -8,6 +8,7 @@ let AddTr = () => {
     let d=React.useContext(debit);
     let [text, setText] = useState('');
     let [amount, setAmount] = useState();
+    delete setAmount();
     let tr=React.useContext(t);
     return (
         <>
