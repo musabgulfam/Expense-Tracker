@@ -8,7 +8,6 @@ let AddTr = () => {
     let d=React.useContext(debit);
     let [text, setText] = useState('');
     let [amount, setAmount] = useState();
-    delete setAmount();
     let tr=React.useContext(t);
     return (
         <>
@@ -25,6 +24,7 @@ let AddTr = () => {
                 <input type="number" value={amount} onChange={(e)=>{
                    d[1](e.target.value);
                    tr[0].concat(e.target.value);
+                   setAmount(e.target.value);
                 }} placeholder="Enter debit amount here"></input>
             </div>
             <button className="btn">Add transaction</button>
